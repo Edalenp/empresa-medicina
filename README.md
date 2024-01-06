@@ -1,4 +1,4 @@
-#   CLINICA 
+#   EMPRESA DE MEDICINA 
 
 Enunciado del ejercicio:
 
