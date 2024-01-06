@@ -1,4 +1,4 @@
-#   CLINICA / TRABAJO FINAL - PRIMER SEMESTRE
+#   CLINICA 
 
 Enunciado del ejercicio:
 
