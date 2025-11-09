@@ -16,10 +16,10 @@ def calcular_costos(paciente: dict) -> list:
     costos.append(costo_edad)
 
     # Costo por enfermedades preexistentes
-    costo_enf = ((25000 if paciente["diabetes"] == 1 else 0) 
-                + (60000 if paciente["hipertension"] == 1 else 0)
-                + (40000 if paciente["cardiovascular"] == 1 else 0)
-                )
+    costo_enf = ((25000 if paciente["diabetes"] == 1 else 0)
+                 + (60000 if paciente["hipertension"] == 1 else 0)
+                 + (40000 if paciente["cardiovascular"] == 1 else 0)
+                 )
     costos.append(costo_enf)
 
     # Costo por IMC

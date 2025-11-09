@@ -6,6 +6,7 @@ from utils.estadisticas import (
     dinero_recaudado
 )
 
+
 def mostrar_menu(info, costos):
     while True:
         print("\n----------- Menú de opciones -----------")

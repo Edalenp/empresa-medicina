@@ -25,7 +25,8 @@ for numeroPaciente in range(cantidadPacientes):
     nombre = paciente["nombre"]
 
     infoPacientes[f"Paciente {numeroPaciente + 1}"] = paciente
-    costosPacientes[f"Paciente {numeroPaciente + 1}"] = calcular_costos(paciente)
+    costosPacientes[f"Paciente {numeroPaciente + 1}"] = calcular_costos(
+        paciente)
 
     mostrar_factura(nombre, costosPacientes[f"Paciente {numeroPaciente + 1}"])
 
